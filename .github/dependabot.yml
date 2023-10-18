@@ -7,4 +7,7 @@ updates:
       time: "10:00"
     pull-request-branch-name:
       separator: "-"
-    open-pull-requests-limit: 0
+    ignore:
+      # ignore patch versions to reduce noise
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
