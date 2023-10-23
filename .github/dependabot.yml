@@ -10,4 +10,4 @@ updates:
     ignore:
       # ignore patch versions to reduce noise
       - dependency-name: "*"
-        versions: ["version-update:semver-patch"]
+        update-types: ["version-update:semver-patch"]
