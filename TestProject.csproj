@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Moq" Version="3.1.416.3" />
+    <PackageReference Include="Moq" Version="4.20.69" />
     <PackageReference Include="Serilog" Version="3.0.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="2.0.0" />
      <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435">
