@@ -11,3 +11,6 @@ updates:
       # ignore patch versions to reduce noise
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+    groups:
+      patterns:
+        - "*"
